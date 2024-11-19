@@ -1,0 +1,33 @@
+@keyframes fadeDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-50px) scale(0.9);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px) scale(1);
+  }
+}
+
+.hunkerDownHeader {
+  color: white;
+  font-weight: 700;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-size: 1.5rem;
+  animation: fadeDown 1s ease-in;
+  padding-top: 0.5em;
+}
+
+@media (min-width: 768px) {
+  .hunkerDownHeader {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .hunkerDownHeader {
+    font-size: 3rem;
+  }
+}

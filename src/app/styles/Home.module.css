@@ -1,0 +1,63 @@
+.fadeIn {
+  animation: fadeIn 2s ease forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.welcomeHeader {
+  font-family: "Sedan SC";
+  font-size: 2rem;
+  margin-top: 5rem;
+  text-align: center;
+  color: white;
+  animation: fadeIn 2s ease-in;
+}
+
+@media (min-width: 768px) {
+  .welcomeHeader {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .welcomeHeader {
+    position: relative;
+    right: 10rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .welcomeHeader {
+    position: relative;
+    right: 22rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .welcomeHeader {
+    position: relative;
+    right: 28rem;
+  }
+}
+
+@media (min-width: 1900px) {
+  .welcomeHeader {
+    position: relative;
+    right: 32rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .welcomeHeader {
+    position: relative;
+    right: 50rem;
+    bottom: 2rem;
+  }
+}

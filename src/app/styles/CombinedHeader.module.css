@@ -1,0 +1,91 @@
+.welcomeHeader {
+  font-family: "Sedan SC";
+  font-size: 2rem;
+  margin-top: 5rem;
+  text-align: center;
+  color: white;
+}
+
+.hunkerDownHeader {
+  color: white;
+  font-weight: 700;
+  font-family: "Montserrat";
+  font-style: italic;
+  font-size: 1rem;
+  text-align: center;
+  animation: fadeIn 1.2s ease-in;
+}
+
+@media (min-width: 1024px) {
+  .welcomeHeader {
+    position: relative;
+    right: 16rem;
+    font-size: 2.3rem;
+  }
+
+  .hunkerDownHeader {
+    position: relative;
+    right: 17.5rem;
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 1440px) {
+  .welcomeHeader {
+    position: relative;
+    right: 25rem;
+    font-size: 2.5rem;
+  }
+
+  .hunkerDownHeader {
+    position: relative;
+    right: 26.5rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .welcomeHeader {
+    position: relative;
+    right: 30rem;
+    font-size: 2.3rem;
+    bottom: 1rem;
+  }
+
+  .hunkerDownHeader {
+    position: relative;
+    right: 30rem;
+    bottom: 1rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1900px) {
+  .welcomeHeader {
+    position: relative;
+    right: 40rem;
+    font-size: 2.3rem;
+    bottom: 1rem;
+  }
+
+  .hunkerDownHeader {
+    position: relative;
+    right: 40rem;
+    bottom: 1rem;
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .welcomeHeader {
+    position: relative;
+    right: 46rem;
+    font-size: 4rem;
+  }
+
+  .hunkerDownHeader {
+    position: relative;
+    right: 46rem;
+    font-size: 2.3rem;
+  }
+}
